@@ -44,6 +44,8 @@ h2, h3 {
     font-size: 22px;
 }
 
+/*main container*/
+
 #main-container {
     padding-top: 130px;
     
@@ -122,6 +124,7 @@ h3, .sidebar, h2 {
     font-size: 30px;
     text-decoration: none;
 }
+/*nav bar*/
 
 nav {
     float: right;
@@ -137,6 +140,11 @@ nav a {
     padding-left: 15px;
     line-height: 18px;
 }
+nav a:first-child {
+    border-left: 0 none;
+}
+
+/*Portfolio Pictures*/
 
 .work {
     float: left;
@@ -151,16 +159,10 @@ nav a {
 
 .work img {
     width: 100%;
-    border: 1px solid #666;
-    
+    border: 1px solid #666;  
 }
 
-nav a:first-child {
-    border-left: 0 none;
-}
-
-
-
+/*footer*/
 
 footer {
     background-color: #666;
