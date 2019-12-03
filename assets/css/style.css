@@ -162,6 +162,20 @@ nav a:first-child {
     border: 1px solid #666;  
 }
 
+.work h2 {
+    border-bottom: 0;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    line-height: 30px;
+    margin-top: 0;
+    font-weight: 700;
+}
+
 /*footer*/
 
 footer {
