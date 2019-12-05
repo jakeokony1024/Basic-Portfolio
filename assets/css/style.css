@@ -88,12 +88,10 @@ h3, .sidebar, h2 {
 }
 
 .social {
-
     width: 62px;
     height: 62px;
     margin-top: 8px;
     margin-bottom: 5px;
-    
 }
 
 .social:last-child {
@@ -210,11 +208,18 @@ nav a:first-child {
  input[type=submit] {
      background-color: #4aaaa5;
      color: #fff;
-     padding: 10px;
+     border: 0 none;
+     padding: 10px 30px;
+     font-size: 14px;
      text-align: center;
-     
-
+     cursor: pointer;
  }
+
+ input[type=submit]:hover {
+     background-color: #3f8f8b;
+     color: white;
+ }
+
 
 /*footer*/
 
