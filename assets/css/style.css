@@ -194,6 +194,28 @@ nav a:first-child {
      width: 100%;
  }
 
+ input[type=text],
+ input[type=email],
+ textarea {
+     height: 35px;
+     border: 1px solid #ddd;
+     padding: 0 10px;
+     font-size: 14px;
+ }
+
+ textarea {
+     height: 150px;
+ }
+
+ input[type=submit] {
+     background-color: #4aaaa5;
+     color: #fff;
+     padding: 10px;
+     text-align: center;
+     
+
+ }
+
 /*footer*/
 
 footer {
