@@ -179,8 +179,19 @@ nav a:first-child {
 /*Contact Page Boxes*/
 
  #contact-form ul{
-
     margin-bottom: 20px;
+ }
+
+ #contact-form li{
+    margin-bottom: 10px;
+ }
+
+ label,
+ input[type=text],
+ input[type=email],
+ textarea {
+     display: block;
+     width: 100%;
  }
 
 /*footer*/
